@@ -1,0 +1,40 @@
+Queue is a data structure that follows the First In, First Out (FIFO) principle, 
+meaning elements are added at the end and removed from the front. Imagine a line 
+of people waiting to buy tickets: the first person in line is the first to get 
+served.
+
+Java provides the Queue interface in the java.util package, with various 
+implementations to meet different needs. Common implementations include 
+LinkedList, PriorityQueue, and ArrayDeque.
+
+Key Queue Operations
+    1. Enqueue (add/offer): Adds an element to the end of the queue.
+    2. Dequeue (remove/poll): Removes an element from the front of the queue.
+    3. Peek: Checks the front element without removing it.
+    4. isEmpty: Checks if the queue is empty.
+
+Queue Implementations in Java
+    LinkedList: A flexible, general-purpose implementation that allows null values 
+    and can function as a queue or deque. It supports FIFO and LIFO operations, 
+    making it useful for many queue applications.
+
+    ArrayDeque: Faster and more efficient than LinkedList for queue operations. It 
+    doesn't allow null values and is recommended over LinkedList for queues and 
+    stacks.
+
+    PriorityQueue: A queue that orders elements based on their natural ordering or 
+    a custom comparator, so elements are dequeued based on priority rather than order 
+    of insertion.
+
+When to Use a Queue
+Queues are useful in scenarios where the order of processing is important, like:
+    Task Scheduling: Managing tasks in an order of execution.
+    Breadth-First Search (BFS): Traversing trees and graphs level by level.
+    Print and Processing Jobs: Handling requests in the order they’re received (FIFO).
+
+Summary
+Queues are ideal for managing collections in a FIFO manner. The choice between 
+LinkedList, ArrayDeque, and PriorityQueue depends on the use case:
+
+Use ArrayDeque for general-purpose queues with high performance.
+Use PriorityQueue if elements need to be processed in a specific order of priority.

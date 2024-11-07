@@ -1,4 +1,4 @@
-package main.java.dsa_in_java.BasicDataStructures;
+package dsa_in_java.BasicDataStructures;
 
 
 public class Arrays {

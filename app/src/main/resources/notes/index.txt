@@ -37,7 +37,7 @@ structures are so valuable:
 
 -> Basic data structures?
 Some of the basic data structures are as follows:
-    1. Array
+    1. Array (Notes: Arrays.txt, Program: Arrays.java).
     2. Stack
     3. Queue
     4. Hash table
