@@ -19,4 +19,14 @@ Ways to implement Linked List in Java:
     -> LinkedList<String> list = new LinkedList<>(): Java provides a LinkedList class in the 
     java.util package, which implements both the List and Deque interfaces. This means it 
     can act as a list, a queue, and a double-ended queue.
-    -> 
+
+    -> Singly Linked List Structure
+        Node Class: Each Node has a value and a reference to the next node.
+        SinglyLinkedList Class: Contains methods to add, remove, and display nodes.
+
+    -> Doubly Linked List Structure
+        Node Class: Each Node has data, a reference to the next node, and a reference to the 
+        previous node.
+        DoublyLinkedList Class: Contains methods to add, remove, and display nodes.
+
+Check out LinkedLists folder!
