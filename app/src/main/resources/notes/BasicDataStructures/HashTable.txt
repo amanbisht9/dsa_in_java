@@ -1,0 +1,30 @@
+=> A Hash Table is a data structure that stores key-value pairs and allows for fast data retrieval. 
+It uses a technique called hashing to map keys to indices in an array, making searches, insertions
+and deletions very efficient. Hash tables are widely used in situations where data retrieval speed 
+is essential, such as in databases and caching systems.
+
+=> Key Concepts of Hash Tables
+Hashing: Hashing is the process of converting a key (like a string) into a unique integer, called a hash code.
+This hash code is then used to determine the index in an array where the corresponding value will be stored.
+A hash function calculates the hash code. A good hash function minimizes collisions.
+
+Collision Handling: Collisions occur when two different keys produce the same hash code and hence the same array index.
+Common collision resolution techniques include:
+    Chaining: Storing multiple values at the same index using a linked list or another structure.
+    Open Addressing: Finding another open slot within the array to store the value.
+    
+Load Factor and Rehashing: Load Factor is the ratio of the number of elements to the array’s size (capacity). 
+For example, a load factor of 0.75 means the table will be rehashed when it’s 75% full.
+Rehashing involves creating a larger array and recalculating the indices for each existing entry.
+
+=> Hash Tables in Java
+Java provides several built-in hash-based data structures:
+
+HashMap: An implementation of a hash table that allows null values and one null key. It’s not synchronized.
+Hashtable: Similar to HashMap, but it’s synchronized, meaning it’s thread-safe (often used in multi-threaded applications).
+LinkedHashMap: Extends HashMap and maintains insertion order.
+ConcurrentHashMap: A thread-safe version of HashMap with finer granularity in locking.
+
+
+Check for Hashing folder for examples!
+Syntax of CRUD for all types of Hash tables is same in java.

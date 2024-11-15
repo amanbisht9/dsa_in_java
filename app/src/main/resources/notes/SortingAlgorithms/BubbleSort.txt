@@ -1,0 +1,24 @@
+Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, 
+compares adjacent elements, and swaps them if they are in the wrong order. This 
+process is repeated until the list is sorted. It is called "bubble sort" because 
+smaller elements "bubble" to the top of the list.
+
+Key Characteristics of Bubble Sort
+
+    Stable Sort: Maintains the relative order of equal elements.
+
+    Time Complexity:
+        Best Case: O(n) (when the array is already sorted).
+        Worst Case: O(n2) (when the array is sorted in reverse order).
+        Average Case: O(n2).
+
+    Space Complexity: O(1) (in-place sorting, no additional storage required).
+
+Bubble Sort Algorithm
+
+    1. Compare adjacent elements in the list.
+    2. Swap them if they are in the wrong order.
+    3. Repeat the process for each element in the list.
+    4. Continue until no swaps are required, meaning the list is sorted.
+
+Checkout Sorting folder for practical example.

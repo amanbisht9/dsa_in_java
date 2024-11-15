@@ -29,4 +29,4 @@ Ways to implement Linked List in Java:
         previous node.
         DoublyLinkedList Class: Contains methods to add, remove, and display nodes.
 
-Check out LinkedLists folder!
+Check out BasicDataStructures/LinkedLists folder and main fuction is in LinkedLists.java!

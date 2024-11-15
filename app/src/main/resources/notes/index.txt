@@ -42,3 +42,11 @@ Some of the basic data structures are as follows:
     3. Queue
     4. Hash table
     5. Linked List
+
+-> Sorting Algorithms
+    1. Bubble Sort    
+    2. Insertion Sort
+    3. Selection Sort
+    4. Merge Sort
+    5. Quick Sort
+    6. Heap Sort
