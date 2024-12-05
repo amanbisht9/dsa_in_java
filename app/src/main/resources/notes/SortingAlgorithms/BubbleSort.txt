@@ -21,4 +21,11 @@ Bubble Sort Algorithm
     3. Repeat the process for each element in the list.
     4. Continue until no swaps are required, meaning the list is sorted.
 
+Practical Applications
+While Bubble Sort is not used in production systems due to inefficiency, it’s beneficial for:
+
+    1. Educational Use: To understand basic sorting principles.
+    2. Small Datasets: Where simplicity is preferred over performance.
+    3. Partially Sorted Data: Optimizations make it faster in such cases.
+
 Checkout Sorting folder for practical example.

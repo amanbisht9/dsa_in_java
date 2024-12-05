@@ -1,0 +1,36 @@
+Quick Sort is a popular divide and conquer sorting algorithm. It works by 
+selecting a "pivot" element, partitioning the array into two subarrays around 
+the pivot (elements smaller than the pivot and elements larger than the pivot), 
+and then recursively sorting the subarrays.
+
+Steps of Quick Sort:
+    1. Choose a Pivot: Select an element from the array as the pivot (commonly the 
+    last element, first element, or a random element).
+    2. Partition: Rearrange the array so that all elements smaller than the pivot 
+    are on the left and all elements larger are on the right.
+    3. Recursively Sort: Apply the above steps to the subarrays on the left and 
+    right of the pivot.
+
+Example:
+    Let’s sort the array [10, 80, 30, 90, 40, 50, 70].
+
+    Steps:
+    Choose pivot = 70.
+
+    Partition: [10, 30, 40, 50] (smaller than pivot), [70] (pivot), [80, 90] (larger than pivot).
+    Array after partition: [10, 30, 40, 50, 70, 80, 90].
+    Recursively sort the left subarray [10, 30, 40, 50]:
+
+    Pivot = 50.
+    Partition: [10, 30, 40] (smaller), [50] (pivot), [] (larger).
+    Array after partition: [10, 30, 40, 50].
+    Recursively sort [10, 30, 40]:
+
+    Pivot = 40.
+    Partition: [10, 30] (smaller), [40] (pivot), [] (larger).
+    Array after partition: [10, 30, 40].
+    Continue recursively until all subarrays have one element.
+
+
+
+

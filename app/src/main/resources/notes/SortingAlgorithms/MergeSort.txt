@@ -1,0 +1,34 @@
+Merge Sort is a divide and conquer algorithm that recursively splits 
+the array into smaller subarrays, sorts each subarray, and then merges 
+them back into a single sorted array.
+
+Steps of Merge Sort:
+1. Divide: Split the array into two halves until each subarray contains only one element (or is empty).
+2. Conquer: Recursively sort each half.
+3. Merge: Merge the sorted halves into a single sorted array.
+
+Example
+Let’s sort the array [38, 27, 43, 3, 9, 82, 10].
+
+Steps:
+    Split into halves:
+    [38, 27, 43, 3] and [9, 82, 10]
+
+    Split each half again:
+    [38, 27], [43, 3], [9, 82], [10]
+
+    Split until each subarray contains one element:
+    [38], [27], [43], [3], [9], [82], [10]
+
+    Merge pairs back together while sorting:
+
+    Merge [38] and [27] → [27, 38]
+    Merge [43] and [3] → [3, 43]
+    Merge [9] and [82] → [9, 82]
+
+    Merge larger subarrays:
+    Merge [27, 38] and [3, 43] → [3, 27, 38, 43]
+    Merge [9, 82] and [10] → [9, 10, 82]
+
+    Merge final subarrays:
+    Merge [3, 27, 38, 43] and [9, 10, 82] → [3, 9, 10, 27, 38, 43, 82]

@@ -1,0 +1,18 @@
+Binary Search works by repeatedly dividing the sorted array into halves and comparing 
+the middle element with the target value. If the target is smaller, the search continues 
+in the left half; if larger, the right half.
+
+Characteristics:
+    Best Case: O(1) (if the target is the middle element)
+    Worst Case: O(logn) (divide and conquer)
+    Requires the array to be sorted.
+
+Example:
+    Suppose we have a sorted array:
+    arr = {2, 4, 6, 8, 10}
+    We want to find 6.
+
+Steps:
+    Start with the whole array: left = 0, right = 4 (indices of the array).
+    Calculate the middle index: mid = (0 + 4) / 2 = 2.
+    Compare arr[mid] (6) with the target (6): match found! Return index 2.
