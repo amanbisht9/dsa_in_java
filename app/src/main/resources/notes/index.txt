@@ -54,3 +54,12 @@ Some of the basic data structures are as follows:
 -> Searching Algorithms
     1. Linear Search
     2. Binary Search and Recursive Binary Search
+
+-> Binary Tree
+    1. Binary Tree
+    2. Binary Search Tree
+
+-> Binary Tree Traversal
+    1. In Order Traversal
+    2. Pre Order Traversal
+    3. Post Order Traversal 

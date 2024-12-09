@@ -1,0 +1,72 @@
+A binary tree is a hierarchical data structure in which each node has at most two children, 
+referred to as the left child and the right child. Binary trees are widely used in computer 
+science for various purposes such as searching, sorting, and representing hierarchical data.
+
+Key Characteristics of a Binary Tree:
+    Root Node: The top node in the tree.
+    Child Nodes: Nodes directly connected to another node when moving away from the root.
+    Parent Node: A node that has branches to other nodes.
+    Leaf Node: A node with no children.
+    Height of a Tree: The number of edges on the longest path from the root to a leaf.
+    Depth of a Node: The number of edges from the root to the node.
+
+Types of Binary Trees:
+    Full Binary Tree: Each node has 0 or 2 children.
+    Complete Binary Tree: All levels are fully filled except possibly the last, which is 
+                          filled from left to right.
+    Perfect Binary Tree: All internal nodes have 2 children, and all leaf nodes are at the same level.
+    Binary Search Tree (BST): A binary tree where for each node:
+        Values in the left subtree are less than the node’s value.
+        Values in the right subtree are greater than the node’s value.
+
+
+Example of a Binary Tree:
+Let's consider the following binary tree:
+
+        10
+       /  \
+      5    15
+     / \   / \
+    2   7 12  20
+
+    
+Root: 10
+Left Subtree: The subtree rooted at 5
+Right Subtree: The subtree rooted at 15
+Leaf Nodes: 2, 7, 12, 20
+
+
+Difference between Binary Tree and Binary Search Tree:
+Binary Tree
+    Definition: A binary tree is a tree data structure where each node has at most two children, referred 
+                to as the left child and the right child.
+    Structure: No specific ordering of elements is enforced. The left and right children can have any value.
+    Purpose: Used for general hierarchical data storage, such as representing parse trees, expression trees, 
+            or decision trees.
+
+    Example:
+
+         1
+        / \
+       2   3
+      / \
+     4   5
+
+Binary Search Tree (BST)
+    Definition: A binary search tree is a binary tree with an additional property:
+        Left Subtree Property: All nodes in the left subtree of a node contain values less than the node's value.
+        Right Subtree Property: All nodes in the right subtree of a node contain values greater than the node's value.
+    Structure: The elements are arranged to facilitate efficient searching, insertion, and deletion (average time complexity: O(logn)).
+    Purpose: Used for sorted data storage and quick retrieval of elements.
+
+    Example:
+
+             8
+            / \
+            3   10
+           / \    \
+          1   6    14
+            / \
+           4   7
+
+
